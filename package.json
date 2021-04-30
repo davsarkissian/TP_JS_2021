@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.1",
+    "@tensorflow/tfjs": "^3.4.0",
+    "@tensorflow/tfjs-node": "^3.3.0",
+    "bluebird": "^3.7.2",
+    "fs-extra": "^9.1.0",
+    "jpeg-js": "^0.4.3",
+    "ramda": "^0.27.1",
+    "ramda-debug": "^0.1.4"
+  },
+  "xo": {
+    "space": 2,
+    "prettier": true,
+    "rules": {
+      "unicorn/no-fn-reference-in-iterator": 0,
+      "unicorn/no-array-callback-reference": 0,
+      "unicorn/no-reduce": 0
+    },
+    "envs": [
+      "mocha"
+    ]
+  },
+  "prettier": {
+    "bracketSpacing": false,
+    "singleQuote": true,
+    "trailingComma": "none"
+  },
+  "devDependencies": {
+    "xo": "^0.38.2"
+  },
+  "scripts": {
+    "code-style": "xo",
+    "code-style-fix": "xo --fix"
+  }
+}
